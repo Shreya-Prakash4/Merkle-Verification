@@ -7,17 +7,17 @@ A React-based Ethereum wallet application that allows users to:
 - Verify transactions with Merkle Proofs
 - Visualize the Merkle Tree structure interactively
 
-🚀 Features
+## 🚀 Features
 
 - 🔑 MetaMask Integration – Connect your Ethereum wallet seamlessly.
 - 💰 Live Balance Fetching – Display real-time ETH balance.
 - 📜 Transaction History – Fetch and display user’s transactions.
 - 🌳 Merkle Tree Proofs – Generate proofs for each transaction.
-- 🎨 Merkle Tree Visualization – Explore how transactions are structured in the Merkle         Tree with zoom and pan features.
+- 🎨 Merkle Tree Visualization – Explore how transactions are structured in the Merkle Tree with zoom and pan features.
 
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - Frontend: React, TailwindCSS
 - Blockchain: Ethers.js, MetaMask
@@ -25,7 +25,7 @@ A React-based Ethereum wallet application that allows users to:
 
 
 
-📂 Project Structure
+## 📂 Project Structure
 ```plaintext
 eth-wallet-project/
 │── public/                  # Static assets
@@ -42,7 +42,7 @@ eth-wallet-project/
 
 
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 1️⃣ Clone the repository
 git clone https://github.com/yourusername/eth-wallet-project.git
@@ -57,7 +57,7 @@ Your app should now run at http://localhost:3000
 
 
 
-🔑 Usage
+## 🔑 Usage
 
 - Open the app in your browser.
 - Connect your MetaMask wallet.
@@ -68,7 +68,7 @@ Your app should now run at http://localhost:3000
 
 
 
- 📜 Results 
+ ## 📜 Results 
 
  Wallet Dashboard
 
@@ -77,16 +77,16 @@ Your app should now run at http://localhost:3000
  
 
 
- 📚 How Merkle Tree Verification Works
+ ## 📚 How Merkle Tree Verification Works
 
 - Transactions are hashed.
 - Hashes are paired and combined up to the Merkle Root.
-- To prove a transaction’s validity, only its Merkle Proof (a small set of hashes) is     required.
-- This enables efficient and secure verification without exposing the entire              transaction list.
+- To prove a transaction’s validity, only its Merkle Proof (a small set of hashes) is required.
+- This enables efficient and secure verification without exposing the entire transaction list.
 
 
 
-  🧩 Future Enhancements
+  ## 🧩 Future Enhancements
 
 - ✅ Add support for multiple blockchains (Polygon, BSC, etc.)
 - ✅ Export Merkle Proofs as JSON files
