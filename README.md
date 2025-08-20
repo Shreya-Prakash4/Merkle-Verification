@@ -30,12 +30,11 @@ A React-based Ethereum wallet application that allows users to:
 eth-wallet-project/
 │── public/                  # Static assets
 │── src/
-│   ├── components/
-│   │   ├── MerkleTree.js        # Utility functions for Merkle Tree
-│   │   ├── MerkleTreeViewer.js  # Interactive Merkle Tree diagram
-│   │   └── Wallet.js            # Wallet connect & balance
-│   ├── TransactionsPage.js      # Fetch transactions & show proofs
-│   ├── App.js                   # Main app entry
+│   │── MerkleTree.js        # Utility functions for Merkle Tree
+│   |── MerkleTreeViewer.js  # Interactive Merkle Tree diagram
+│   |── Wallet.js            # Wallet connect & balance
+│   |── TransactionsPage.js      # Fetch transactions & show proofs
+│   |── App.js                   # Main app entry
 │   └── index.js                 # React root
 │── package.json
 ```
