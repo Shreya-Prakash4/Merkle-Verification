@@ -44,7 +44,7 @@ eth-wallet-project/
 ## ⚙️ Installation & Setup
 
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/eth-wallet-project.git
+git clone https://github.com/Shreya-Prakash4/eth-wallet-project.git
 cd eth-wallet-project
 
 2️⃣ Install dependencies
